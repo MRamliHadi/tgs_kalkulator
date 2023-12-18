@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(4, 84, 255);
+}
+
+.container {
+    display: flexbox;
+    background-color: rgb(238, 41, 41);
+    border-radius: 12px;
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-right: 150px;
+    width: 500px;
+    height: 240px;
+    padding-bottom: 200px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.container .text {
+    height: 15vh;
+    text-align: center;
+    border: 10px solid  rgb(19, 21, 14);
+    border-radius: 12px;
+    box-shadow: 5px 5px;
+    margin-top: 10px;
+    width: 400px;
+    height: 70px;
+}
+
+.container .text h1 {
+    margin-top: 15px
+}
+
+.box-one {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.box-one label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-one input {
+    background-color: rgba(232, 231, 231, 0.911);
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    border: hidden;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px;
+    font-size: 20px;
+    text-indent: 7px;
+
+}
+
+.box-two {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.box-two label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-two input {
+    background-color: rgba(232, 231, 231, 0.911);
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    border: hidden;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px;
+    font-size: 20px;
+    text-indent: 7px;
+}
+
+button {
+    display: flexbox;
+    margin-top: 30px;
+    margin-left: 18px;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    background-color: bisque;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 12px;
+}
+.name {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    margin-right: 70px;
+}
